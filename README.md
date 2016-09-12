@@ -4,6 +4,8 @@ The Illustrator script was written with the purpose of creating a potentially us
 The data used 
 
 Supports the representation of 20 columns with data.
+A4 -Orientation landscape.
+Sample name 5 characters.
 
 **Version 1** (illustrator_JS_v1.jsx)
 
