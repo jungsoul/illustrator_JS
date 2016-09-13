@@ -6,6 +6,8 @@ The data used
 Supports the representation of 20 columns with data.
 A4 -Orientation landscape.
 Sample name 5 characters.
+Increasing number of samples decreases readability of sample names.
+Source code is well documented with comments.
 
 **Version 1** (illustrator_JS_v1.jsx)
 
