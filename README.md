@@ -20,28 +20,31 @@ This version is useful when your dataset contains fewer species but abundant.
 
 **Please bear in mind:**
 
- - Dataset with a number of samples less than five and a number of species less than six or seven generates correct, but weird looking graphics.
- - Increasing number of samples decreases readability of sample names.
+ - Dataset with a number of samples less than five and a number of species less than six or seven generates correct, but weird looking graphics
+ - Increasing number of samples decreases readability of sample names
 
 **Prepare your data file**
 
 Only CSV (Comma Separated Values) files are supported. To prepare your CSV file with the data:
 
-- Open your Excell data file.
-
-![image](Images/Screenshot1 .png)
+- Open your Excell file that contains the data to be used
 
 In order for the script to work properly, your Excell sheet should be organized the following way:
-- First row contains the names of the samples () beginning with an empty cell. Samples will be displayed 
 
-- Save your Excell file to CSV format (From the menu bar select File -> Save as and from the dropdown menu select the format: CSV).
+- First row should contain the names of the samples beginning with an empty cell (first column) (see picture below)
+ - Rest of the rows contain the name of the species/genera/group (first column) followed by the abundance value of the specific species in each sample (see picture below)
+
+![image](Images/CSVFile.png)
+
+- Save your Excell file to CSV format (From the menu bar select *File* -> *Save as* and from the dropdown menu select the format: *CSV*).
 
 **Use script in Illustrator**
 
 - Open Illustrator.
-- From the menu bar select File-> Scripts ->Other Script….
-- Browse to the folder you saved the script.
-- First step is downloading the script to your computer.
+- From the menu bar select *File* -> *Scripts* -> *Other Script…*
+- Browse to the folder you saved the script, select the script and open it
+- After opening the script a window appears to select your CSV file. Browse to your file, select and open it.
+- That's it!
 
 For further information, comments or if you stumble upon issues please write me an e-mail: szekelyflavius@gmail.com.
 
