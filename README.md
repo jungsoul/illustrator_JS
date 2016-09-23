@@ -8,17 +8,18 @@ The percent abundance is represented for each sample relative to the maximum per
 
 **Version 2** *(illustrator_JS_v2.jsx)*
 
+The percent abundance is represented for each sample relative to the total of the community (meaning 100%).
 This version is useful when your dataset contains fewer species but abundant.
 
 **The generated graphic has the following features:**
 
- - A4 
-- Landscape orientation.
- - Supports the representation of 20 columns with data.
- - Sample name 5 characters.
- - The colours and fonts are basic.
+ - A4 sized document
+ - Landscape orientation
+ - Supports the representation of a maximum of 20 columns with data
+ - Basic colours and fonts
 
-Please bear in mind:
+**Please bear in mind:**
+
  - Dataset with a number of samples less than five and a number of species less than six or seven generates correct, but weird looking graphics.
  - Increasing number of samples decreases readability of sample names.
 
@@ -28,7 +29,7 @@ Only CSV (Comma Separated Values) files are supported. To prepare your CSV file 
 
 - Open your Excell data file.
 
-![image](/Users/szekelyflavius/Git/illustrator_JS/Images/Screenshot1 .png)
+![image](Images/Screenshot1 .png)
 
 In order for the script to work properly, your Excell sheet should be organized the following way:
 - First row contains the names of the samples () beginning with an empty cell. Samples will be displayed 
