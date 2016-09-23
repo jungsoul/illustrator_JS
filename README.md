@@ -32,7 +32,7 @@ Only CSV (Comma Separated Values) files are supported. To prepare your CSV file 
 In order for the script to work properly, your Excell sheet should be organized the following way:
 
 - First row should contain the names of the samples beginning with an empty cell (first column) (see picture below)
- - Rest of the rows contain the name of the species/genera/group (first column) followed by the abundance value of the specific species in each sample (see picture below)
+- Rest of the rows contain the name of the species/genera/group (first column) followed by the abundance value of the specific species in each sample (see picture below)
 
 ![image](Images/CSVFile.png)
 
